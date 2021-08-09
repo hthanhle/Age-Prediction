@@ -16,6 +16,6 @@ This project develops an age prediction system consisting of two stages:
 ### Test
 Please run the following commands: 
 
-1. To test on a single image: `python get_age.py --input test.jpg --output test_out.jpg --detector retinaface --estimator ssrnet`
-2. To test on camera: `python get_age_cam_coral.py`
-3. To test on a single video: `python get_age_video_ssrnet.py --input test.mp4 --output test_out.mp4`
+1. Test on a single image: `python get_age.py --input test.jpg --output test_out.jpg --detector retinaface --estimator ssrnet`
+2. Test on camera: `python get_age_cam_coral.py`
+3. Test on a single video: `python get_age_video_ssrnet.py --input test.mp4 --output test_out.mp4`
