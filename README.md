@@ -9,7 +9,7 @@ This project develops an age prediction system consisting of two stages:
 
 ## Quick start
 ### Installation
-1. Install PyTorch=1.8.0 following [the official instructions](https://pytorch.org/)
+1. Install PyTorch=1.7.0 following [the official instructions](https://pytorch.org/)
 2. git clone https://github.com/hthanhle/Age-Prediction
 3. Install dependencies: `pip install -r requirements.txt`
 
