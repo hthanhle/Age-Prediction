@@ -6,7 +6,9 @@ This project develops an age prediction system consisting of two stages:
 
 2. Age estimation using i) basic regression, ii) CORAL [[2]](https://www.sciencedirect.com/science/article/pii/S016786552030413X), and iii) SSRNet [[3]](https://www.ijcai.org/proceedings/2018/150)
 
-![alt text](https://github.com/hthanhle/Age-Prediction/tree/main/output/test1_out.jpg)
+![alt_text](/output/test1_out.jpg)
+![alt_text](/output/test2_out.jpg)
+![alt_text](/output/test3_out.jpg)
 
 ## Quick start
 ### Installation
