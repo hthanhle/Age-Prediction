@@ -1,0 +1,16 @@
+train_params:
+  dataset_dir: '/data/age_estimation/dataset/'
+  train_list: 'train.txt'
+  valid_list: 'valid.txt'
+  test_list: 'test.txt'
+  batch_size: 2  # must be 8 for UTKFace and 2 for other datasets, otherwise a NaN problem may be occurred
+  num_epochs: 200
+  num_workers: 0
+  lr_start: 0.0001
+  img_size: 64  # Note that SSR_Net only
+  resumed: False
+  weight_path: '' # for testing
+
+model_params:
+  max_age: 116  # UTKFace 0 - 116 years
+  age_group: 1  # age group (>=1). Note that, number of classes = int(max_age/age_group) + 1
