@@ -1,0 +1,14 @@
+train_params:
+  dataset_dir: '/data/age_estimation/dataset/'
+  train_list: 'train.txt'
+  test_list: 'test.txt'
+  valid_list: 'valid.txt'
+  batch_size: 128
+  num_epochs: 200
+  num_workers: 6
+  lr_start: 0.0001
+  img_size: 128
+
+model_params:
+  max_age: 116  # UTKFace 0 - 116 years
+  age_group: 1  # age group (>=1). Note that, number of classes = int(max_age/age_group) + 1
