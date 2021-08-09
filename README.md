@@ -5,7 +5,7 @@ This project develops an age prediction system consisting of two stages:
 1. Face detection and alignment using i) Retinaface [[1]](https://openaccess.thecvf.com/content_CVPR_2020/html/Deng_RetinaFace_Single-Shot_Multi-Level_Face_Localisation_in_the_Wild_CVPR_2020_paper.html), MTCNN [[2]](https://ieeexplore.ieee.org/document/7553523), and iii) DSFD [[3]](https://ieeexplore.ieee.org/document/8954268)
 2. Age estimation using i) basic regression, ii) CORAL [[4]](https://www.sciencedirect.com/science/article/pii/S016786552030413X), and iii) SSRNet [[5]](https://www.ijcai.org/proceedings/2018/150)
 
-![alt_text](/output/test1.jpg) ![alt_text](/output/test2.jpg)  ![alt_text](/output/test3.jpg)
+![alt_text](/output/test1.jpg) ![alt_text](/output/test3.jpg)  ![alt_text](/output/test2.jpg)
 
 ## Quick start
 ### Installation
